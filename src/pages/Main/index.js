@@ -25,7 +25,7 @@ export default function Main() {
           duration: 950
         })
       ])
-    ]).start(() => { setShow(!show)})
+    ]).start(() => {setShow(!show)})
   },[])
 
   return (
