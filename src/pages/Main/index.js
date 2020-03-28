@@ -1,6 +1,8 @@
 import React, {useState, useEffect} from 'react';
 import { View, Text, Animated } from 'react-native';
 
+import FabButton from '../../components/FabButton'
+
 import styles from './styles';
 
 export default function Main() {
@@ -41,8 +43,13 @@ export default function Main() {
             }
           ]} 
         /> 
-        : 
-        <Text style={styles.text} >  MAIN PAGE </Text> 
+        :
+        <>
+          <Text style={styles.text} >  MAIN PAGE </Text>
+          <FabButton
+            style={{ bottom: 80, right: 50 }}       
+          />
+        </>
       }
     </View>
   );
