@@ -8,14 +8,15 @@ const styles = StyleSheet.create({
         justifyContent: 'center'
     },
     title: {
-        marginTop: 10,
+        marginTop: 15,
         color: '#A134D6',
         fontSize: 20,
         fontWeight: 'bold',
     },
     logo: {
-        height: '40%',
-        margin: 15,
+        height: '35%',
+        marginTop: 45,
+        marginBottom: 45,
         resizeMode: 'contain'
     }, 
     form: {

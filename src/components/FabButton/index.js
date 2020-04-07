@@ -56,34 +56,33 @@ export default function FabButton(props) {
 
   return (
     <View style={[styles.container, props.style]} >
-        <TouchableWithoutFeedback onPress={() => alert('Home button')}>
-            <Animated.View style={[styles.button, styles.subMenu, heartStyle]}>
-              <Icon
-                name="home" 
-                size={18} 
-                color="#FFF"
-              />
-            </Animated.View>        
-        </TouchableWithoutFeedback>
-        <TouchableWithoutFeedback onPress={() => alert('Home heart')}>
-            <Animated.View style={[styles.button, styles.subMenu, homeStyle]}>
-              <Icon
-                name="heart" 
-                size={18} 
-                color="#FFF"
-              />
-            </Animated.View>        
-        </TouchableWithoutFeedback>
-
-        <TouchableWithoutFeedback onPress={toggleMenu}>
-            <Animated.View style={[styles.button, styles.menu, rotation]}>
-              <Icon
-                name="plus" 
-                size={20} 
-                color="#FFF"
-              />
-            </Animated.View>        
-        </TouchableWithoutFeedback>
+      <TouchableWithoutFeedback onPress={() => alert('Home button')}>
+        <Animated.View style={[styles.button, styles.subMenu, heartStyle]}>
+          <Icon
+            name="home" 
+            size={18} 
+            color="#FFF"
+          />
+        </Animated.View>        
+      </TouchableWithoutFeedback>
+      <TouchableWithoutFeedback onPress={() => alert('Home heart')}>
+        <Animated.View style={[styles.button, styles.subMenu, homeStyle]}>
+          <Icon
+            name="heart" 
+            size={18} 
+            color="#FFF"
+          />
+        </Animated.View>        
+      </TouchableWithoutFeedback>
+      <TouchableWithoutFeedback onPress={toggleMenu}>
+        <Animated.View style={[styles.button, styles.menu, rotation]}>
+          <Icon
+            name="plus" 
+            size={20} 
+            color="#FFF"
+          />
+        </Animated.View>        
+      </TouchableWithoutFeedback>
     </View>
   );
 }

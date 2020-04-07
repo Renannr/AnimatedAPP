@@ -5,7 +5,7 @@ const styles = StyleSheet.create({
         alignItems: 'center',
         position: 'absolute'
     },
-    button:{
+    button: {
         position: 'absolute',
         width: 50,
         height: 50,
@@ -17,11 +17,10 @@ const styles = StyleSheet.create({
     menu: {
         backgroundColor: '#A134D6',
     },
-    subMenu:{
+    subMenu: {
         width: 40,
         height: 40,
         borderRadius: 40/2,
-
     }
 })
 

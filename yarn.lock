@@ -5486,7 +5486,7 @@ prompts@^2.0.1:
     kleur "^3.0.3"
     sisteransi "^1.0.4"
 
-prop-types@^15.6.2, prop-types@^15.7.2:
+prop-types@^15.6.0, prop-types@^15.6.2, prop-types@^15.7.2:
   version "15.7.2"
   resolved "https://registry.yarnpkg.com/prop-types/-/prop-types-15.7.2.tgz#52c41e75b8c87e72b9d9360e0206b99dcbffa6c5"
   integrity sha512-8QQikdH7//R2vurIJSutZ1smHYTcLpRWEOlHnzcWHmBYrOGUysKwSsrC89BCiFj3CbrfJ/nXFdJepOVrY1GCHQ==
@@ -5565,6 +5565,11 @@ react-native-iphone-x-helper@^1.2.1:
   resolved "https://registry.yarnpkg.com/react-native-iphone-x-helper/-/react-native-iphone-x-helper-1.2.1.tgz#645e2ffbbb49e80844bb4cbbe34a126fda1e6772"
   integrity sha512-/VbpIEp8tSNNHIvstuA3Swx610whci1Zpc9mqNkqn14DkMbw+ORviln2u0XyHG1kPvvwTNGZY6QpeFwxYaSdbQ==
 
+react-native-linear-gradient@^2.5.6:
+  version "2.5.6"
+  resolved "https://registry.yarnpkg.com/react-native-linear-gradient/-/react-native-linear-gradient-2.5.6.tgz#96215cbc5ec7a01247a20890888aa75b834d44a0"
+  integrity sha512-HDwEaXcQIuXXCV70O+bK1rizFong3wj+5Q/jSyifKFLg0VWF95xh8XQgfzXwtq0NggL9vNjPKXa016KuFu+VFg==
+
 react-native-safe-area-context@^0.7.3:
   version "0.7.3"
   resolved "https://registry.yarnpkg.com/react-native-safe-area-context/-/react-native-safe-area-context-0.7.3.tgz#ad6bd4abbabe195332c53810e4ce5851eb21aa2a"
@@ -5583,6 +5588,18 @@ react-native-screens@^2.4.0:
   integrity sha512-7GcXlaj7IIrM4l5Ub7BPTkNQJ2slHGt2bhmfWmW73NTXEv+7pjHlp+JpQO32Yn+O8UQGPFf0rsesfYUdER7ppQ==
   dependencies:
     debounce "^1.2.0"
+
+react-native-shimmer-placeholder@^1.0.35:
+  version "1.0.35"
+  resolved "https://registry.yarnpkg.com/react-native-shimmer-placeholder/-/react-native-shimmer-placeholder-1.0.35.tgz#e75612297155a337690a42faf606fdcc4660bd39"
+  integrity sha512-qJS+eHjOuXZAxn4tFQFnRGHq6fzJOcNHrCKhbfx2+5v/Oa/W5G9Ww9DSPLiaAqzpRl74lcVZSufKTAxiVSB4qQ==
+
+react-native-shimmer@^0.6.0:
+  version "0.6.0"
+  resolved "https://registry.yarnpkg.com/react-native-shimmer/-/react-native-shimmer-0.6.0.tgz#9529c4c85665827c582ebb74a285a67a450f5f2b"
+  integrity sha512-uDrriPwzbOKj3XlFDNhCVst+veTy58RVNpcaJfLlZR2pX3/4A4P+E7rGeDUhfe2lWz/OTEwDWidVkrIcCakEng==
+  dependencies:
+    prop-types "^15.6.0"
 
 react-native-vector-icons@^6.6.0:
   version "6.6.0"
